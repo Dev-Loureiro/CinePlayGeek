@@ -101,7 +101,37 @@ iframe {
     margin: 10px;
 }
 
+nav h4 {
+    margin: 10px
+}
 
+
+#nav-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.direction-nav-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: #313131;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.direction-nav-footer p {
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.direction-nav-footer a {
+    font-size: 22px;
+    color: #BDBDBD;
+    text-decoration: none;
+}
 /* rodape */
 
 footer {
