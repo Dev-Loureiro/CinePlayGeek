@@ -1,0 +1,335 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f0f8ff;
+}
+
+main {
+    background-color: #898989;
+}
+
+
+
+/* header */
+header {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    padding: 50px;
+}
+
+header p {
+    font-size: 32pt;
+}
+
+
+ul {
+    display: flex;
+    padding: 0 100px;
+}
+
+li {
+    padding: 0 40px;
+    list-style: none;
+    font-size: 18pt;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+/* header */
+
+
+/* primeira pagina */
+.tela-inicial {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 90%;
+    height: 655px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 60px;
+    padding-bottom: 200px;
+
+}
+
+.tela-inicial h1 {
+    font-size: 72px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+    text-align: left;
+    padding-left: 5%;
+    width: 75%;
+}
+
+.tela-inicial p {
+    width: 65%;
+    padding-left: 5%;
+}
+
+article {
+    padding: 10px;
+}
+
+/* primeira pagina */
+
+
+
+
+
+
+/* estrutura h2 dos os articles*/
+.h2-estrutura {
+    text-align: center;
+    margin: 1% 1%;
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 0px 4px 100px rgba(0, 0, 0, 0.50);
+    font-weight: 800;
+    -webkit-text-stroke: 1.5px #000;
+}
+
+/* estrutura h2 dos os articles*/
+
+
+
+/*filmes estrutura article*/
+#filmes {
+    background-color: #D9D9D9;
+    box-shadow: 0px 0px 10px 1px #000 inset;
+}
+
+#filmes p {
+    font-size: 26px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/*filmes estrutura article*/
+
+/*imgs filmes*/
+#img-ilha-do-medo {
+    display: flex;
+    justify-content: center;
+}
+
+#img-ilha-do-medo img {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 20px 4px #AB896D;
+    border-radius: 10px;
+}
+
+
+
+#imgs-filmes {
+    margin: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#imgs-filmes img {
+    border-radius: 10px;
+
+}
+
+/* sombras img*/
+#imgs-filmes div:nth-of-type(1) img {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 20px 4px #B34120;
+}
+
+#imgs-filmes div:nth-of-type(2) img {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 20px 4px #1D1E32;
+}
+
+/* sombras img*/
+/*imgs filmes*/
+
+
+
+
+/*series estrutura article*/
+#series {
+    background-color: #313131;
+}
+
+/*series estrutura article*/
+
+
+
+/*imgs series*/
+#imgs-series {
+    display: flex;
+    justify-content: space-around;
+}
+
+#imgs-series img {
+    border-radius: 10px;
+}
+
+#imgs-series div {
+    margin-bottom: 50px;
+}
+
+#imgs-series p {
+    font-size: 26px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#imgs-series div:nth-of-type(1) img {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+box-shadow: 0px 0px 20px 4px #553628;
+}
+
+#imgs-series div:nth-of-type(2) img {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+box-shadow: 0px 0px 20px 4px #020C18;
+}
+
+/*imgs series*/
+
+
+#jogos {
+    background-color: #D9D9D9;
+    box-shadow: 0px 0px 10px 1px #000 inset;
+
+}
+
+#imgs-jogos {
+    display: flex;
+    justify-content: center;
+}
+
+#imgs-jogos img {
+    border-radius: 10px;
+}
+
+/* SOMBRAS IMG JOGOS*/
+#imgs-jogos div:nth-of-type(1) div:nth-of-type(1) img {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 20px 4px #000;
+}
+
+#imgs-jogos div:nth-of-type(1) div:nth-of-type(2) img {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 20px 4px #C86B4C;
+}
+
+
+
+#imgs-jogos div:nth-of-type(2) div:nth-of-type(1) img {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 20px 4px #3C69B7;
+}
+
+#imgs-jogos div:nth-of-type(2) div:nth-of-type(2) img {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 20px 4px #457299;
+}
+
+/* SOMBRAS IMG JOGOS*/
+
+
+.espaçamento-img-jogos {
+    padding: 5px;
+    margin: 85px;
+}
+
+#imgs-jogos p {
+    font-size: 26px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+
+
+#livros {
+    background-color: #000000;
+}
+
+#imgs-livros {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#imgs-livros div:nth-of-type(1) img {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+box-shadow: 0px 0px 20px 4px #F9FBFD;
+border-radius: 10px;
+}
+
+#imgs-livros div:nth-of-type(2) img {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+box-shadow: 0px 0px 20px 4px #F15323;
+border-radius: 10px;
+}
+
+#livros p {
+    font-size: 26px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.espaçamento-img-livros {
+    margin: 5px;
+    padding: 85px;
+}
+
+
+
+footer {
+    height: 100px;
+    background-color: #313131;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+#creditos {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+#rodape {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 10px;
+}
+
+
+#icones {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+#icones img {
+    height: 100%;
+    width: auto;
+    padding: 10px;
+}
+
